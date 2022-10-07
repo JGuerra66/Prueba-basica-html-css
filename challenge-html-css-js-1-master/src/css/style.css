@@ -1,0 +1,256 @@
+/* Contenedores */
+
+.contenedor, .banner{
+    width: 90%;
+    margin:auto;
+    align-items: center;
+}
+
+header, footer, .box,.contenedor,.contenedormult, .contenedormult-bg, article, .banner, .bannerwtext{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    align-items: center;
+    text-align: center;
+}
+
+
+.botonera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedormult{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;  
+    flex-wrap: wrap;
+}
+
+.contenedormult-bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;  
+    background-color: yellow;
+    border-radius: 10px;
+    
+}
+
+.box{
+    width: 25%;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+}
+
+.headertextbox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.bannerwtext{
+    background-image: url("../img/banner_fondo.jpg");
+    background-size: cover;
+    background-blend-mode: saturation;
+}
+
+article, p{
+    width: 70%;
+}
+
+.compactarticle{
+    line-height: 2.2;
+    font-weight: 525;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 33%;
+    margin-top: 30px;
+    border-color: lightslategray;
+    border-width: 5px;
+    margin-bottom: 50px;
+}
+
+
+/*Texto*/
+
+h1,h2,h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bannertexttop,.bannertextcenter,.bannertextbottom{
+    padding: 10px;
+}
+
+.threeboxtext{
+    text-decoration: underline;
+    color: rgb(8, 161, 110);
+}
+
+.centerbannertext{
+    color:darkblue;
+}
+
+.bannertexttop{
+    font-weight: bold;
+    color: white;
+}
+
+.bannertextcenter{
+    font-weight: bold;
+    color: lightgreen;
+}
+
+.bannertextbottom{
+    color: white;
+    font-weight: lighter;
+}
+
+.headersubtext{
+    color: darkgray;
+    margin-top: -10px;
+}
+
+.categorytext{
+    color: lightslategray;
+    margin-bottom: -10px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: larger;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+
+/*Botones*/
+
+.fa{
+    color: white;
+    background-color: rgb(23, 202, 23);
+    border-radius: 50%;
+    padding: 20px;
+    border:none;
+    width: fit-content;
+    align-self: center;
+}
+
+.button{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: none;
+    border: none;  
+    color: black;
+}
+
+.button-w-border{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: rgb(19, 173, 19);
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: fit-content;
+    border: none;
+}
+
+button:hover{
+    color: orange;
+}
+
+
+/*Formulario*/
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px;
+    margin-left: 0%;
+    margin-top: 0%;
+    border-radius: 5px;
+    border-color: black;
+    
+}
+
+input[type=submit]{
+    background-color: lightseagreen;
+    
+    width:fit-content;
+    color:white
+}
+
+input[type=submit]:hover{
+    background-color: orange;
+}
+
+textarea{
+    resize: none;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(37, 36, 36);
+}
+
+
+/*Otros elementos*/
+
+.pagination {
+    margin-top: 50px;
+    display: inline-block;
+    align-self: flex-start;
+}
+  
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: lightslategray;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
